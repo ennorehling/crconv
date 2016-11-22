@@ -1,3 +1,5 @@
+#include <platform.h>
+#include <autoconf.h>
 #include "version.h"
 
 #include <stdio.h>

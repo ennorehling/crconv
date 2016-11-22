@@ -42,7 +42,7 @@ set (CRCONV_SRC
   crconv.c
 )
 
-add_library(version STATIC ${VERSION_SRC})
+add_library(version STATIC version.c)
 add_executable(crconv ${CRCONV_SRC})
 target_link_libraries(crconv
   version
