@@ -1,3 +1,5 @@
 #pragma once
 
-int cr_read(const char *filename);
+#include <cJSON.h>
+
+cJSON *cr_read(const char *filename);
